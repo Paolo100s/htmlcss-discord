@@ -79,8 +79,26 @@ header{
 /* main */
 .section-container{
     width: 80%;
-    margin: auto;
+    margin: 100px auto;
     display: flex;
+}
+
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+    padding: 50px 20px;
+}
+
+.text > h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.text > p{
+    font-size: 20px;
 }
 
 .row-reverse{
@@ -97,6 +115,23 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.last-column > h3{
+    font-size: 30px;
+}
+
+.for-download2{
+    margin: 50px auto;
+    font-size: 20px;
+    line-height: 35px;
+    border-radius: 30px;
+    background-color: #7289da;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #f6f6f6;
 }
 
 /* footer */
@@ -128,11 +163,7 @@ header{
     border: 3px solid black;
 } */
 
-.bg-grey{
-    background-color: grey;
-}
-
-.image{
+/* .image{
     width: 60%;
     background-color: blue;
     border: 3px solid black;
@@ -142,7 +173,7 @@ header{
     width: 40%;
     background-color: red;
     border: 3px solid black;
-}
+} */
 
 footer{
     background-color: yellow;
