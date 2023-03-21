@@ -135,17 +135,62 @@ header{
 }
 
 /* footer */
+
+footer{
+    max-width: 100%;
+    background-color: #23272a;
+}
+
 .footer-nav{
     width: 70%;
     margin: auto;
+    padding: 50px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border-bottom: 1px solid #7289da;
+}
+
+.bottom-column-left > h3{
+    color: #7289da;
+}
+
+select{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.icons{
+    color: #fff;
+    margin: 20px auto;
+}
+
+.icons > i{
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.bottom-column-other{
+    color: #7289da;
+    list-style: none;
+}
+
+.bottom-column-other > li{
+    color: #fff;
+    padding: 10px 0;
 }
 
 .bottom-footer{
+    width: 70%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 20px 0 50px;
+}
+
+.for-sign-up{
+    background-color: #7289da;
+    color: #fff;
 }
 
 /* debug */
@@ -175,11 +220,10 @@ header{
     border: 3px solid black;
 } */
 
-footer{
+/* footer{
     background-color: yellow;
 }
 
 .footer-nav{
     height: 150px;
-    border-bottom: 1px solid black;
-}
+} */
